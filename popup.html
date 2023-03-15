@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hey Brain!</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body class="m-0 hey-brain-main">
+    <div class="p-4 m-2" style="width: 275px">
+      <!-- SIGN IN -->
+      <div class="flex flex-col items-center space-y-4" id="sign-in">
+        <img src="assets/icons/brain-48.png" class="h-12 w-12" />
+        <p class="text-xs font-bold">PLEASE SIGN IN TO START</p>
+        <div class="flex flex-col space-y-2">
+          <input
+            type="text"
+            class="px-4 py-2 rounded-md border border-gray-200 focus:border-gray-400 focus:outline-none text-base font-normal"
+            placeholder="Username"  
+            id="sign-in-username"
+            name="sign-in-username"
+          />
+          <input
+            type="password"
+            class="px-4 py-2 rounded-md border border-gray-200 focus:border-gray-400 focus:outline-none text-base font-normal"
+            placeholder="Password"
+            id="sign-in-password"
+            name="sign-in-password"
+          />
+          <button
+            class="px-5 py-2 rounded-full outline-none border-0 text-sm font-semibold bg-purple hover:shadow-md active:bg-purple-darker active:shadow-lg text-white"
+            id="sign-in-button"
+          >
+            SIGN IN
+          </button>
+        </div>
+        <p class="cursor-pointer" id="show-sign-up-button">
+          Don't you have an account? Sign up
+        </p>
+      </div>
+      <!-- /SIGN IN -->
+      <!-- SIGN UP -->
+      <div class="flex flex-col items-center space-y-4 hidden" id="sign-up">
+        <img src="assets/icons/brain-48.png" class="h-12 w-12" />
+        <p class="text-xs font-bold">CREATE AN ACCOUNT</p>
+        <div class="flex flex-col space-y-2">
+          <input
+            type="text"
+            class="px-4 py-2 rounded-md border border-gray-200 focus:border-gray-400 focus:outline-none text-base font-normal"
+            placeholder="Username"
+            id="sign-up-username"
+            name="sign-up-username"
+          />
+          <input
+            type="email"
+            class="px-4 py-2 rounded-md border border-gray-200 focus:border-gray-400 focus:outline-none text-base font-normal"
+            placeholder="E-mail"
+            id="sign-up-email"
+            name="sign-up-email"
+          />
+          <input
+            type="password"
+            class="px-4 py-2 rounded-md border border-gray-200 focus:border-gray-400 focus:outline-none text-base font-normal"
+            placeholder="Password"
+            id="sign-up-password"
+            name="sign-up-password"
+          />
+          <input
+            type="password"
+            class="px-4 py-2 rounded-md border border-gray-200 focus:border-gray-400 focus:outline-none text-base font-normal"
+            placeholder="Confirm Password"
+            id="sign-up-confirm-password"
+            name="sign-up-confirm-password"
+          />
+          <button
+            class="px-5 py-2 rounded-full outline-none border-0 text-sm font-semibold bg-purple hover:shadow-md active:bg-purple-darker active:shadow-lg text-white"
+            id="sign-up-button"
+          >
+            SIGN UP
+          </button>
+        </div>
+        <p class="cursor-pointer" id="show-sign-in-button">
+          Already have an account? Sign in
+        </p>
+      </div>
+      <!-- /SIGN UP -->
+      <!-- SIGNED IN -->
+      <div class="flex flex-col items-center space-y-4 hidden" id="signed-in">
+  
+        <div class="logo-switch">        
+          <img id ="heybrain-settings-button" src="assets/images/settings.png" class="h-12 w-2"/>             
+          <img id ="brainImg" src="assets/icons/brain-48.png" class="h-12 w-8"/>             
+          <label class="switch">
+              <input type="checkbox" checked/>
+              <span class="slider round"></span>
+            </label>         
+        </div>
+     
+        <div class="flex flex-row space-x-1 items-start w-full">
+          <p class="text-xs font-bold">Name:</p>
+          <p class="text-xs" id="user-username"></p>
+        </div>
+        <div class="flex flex-row space-x-1 items-start w-full">
+          <p class="text-xs font-bold">E-mail:</p>
+          <p class="text-xs" id="user-email"></p>
+        </div>
+        <button
+          class="w-full px-2 py-2 rounded-full outline-none border-0 text-xs font-semibold bg-purple hover:shadow-md active:bg-purple-darker active:shadow-lg text-white"
+          id="sign-out-button"
+        >
+          SIGN OUT
+        </button>
+        <button
+          class="w-full px-2 py-2 rounded-full outline-none border-0 text-xs font-semibold bg-blue-800 hover:shadow-md active:bg-blue-800 active:shadow-lg text-white"
+          id="sync-history-button"
+        >
+          SYNC HISTORY
+        </button>
+      </div>
+      <!-- /SIGNED IN -->
+
+
+      <!-- SETTINGS -->
+      <div class="flex flex-col items-center space-y-4 hidden" id="heybrain-settings">
+        <img src="assets/icons/brain-48.png" class="h-12 w-12" />
+       
+        <!-- The code will be replaced -->
+
+        <p class="text-xs font-bold" id="page-is-blocked">The brain is blocked for the page</p>
+        <p class="text-xs font-bold" id="domain-is-blocked">The brain is blocked for the domain</p>
+        <p class="text-xs font-bold" id="wrong-page">The brain is blocked for the domain</p>
+
+        <button 
+        class = "w-full px-2 py-2 rounded-full outline-none border-0 text-xs font-semibold bg-purple hover:shadow-md active:bg-purple-darker active:shadow-lg text-white"
+        id = "addpage-button"
+        > 
+          Block for the page
+       </button>
+       <button 
+        class = "w-full px-2 py-2 rounded-full outline-none border-0 text-xs font-semibold bg-purple hover:shadow-md active:bg-purple-darker active:shadow-lg text-white"
+        id = "adddom-button"
+        > 
+          Block for the domain
+       </button>
+      
+       <button 
+        class = "w-full px-2 py-2 rounded-full outline-none border-0 text-xs font-semibold bg-red hover:shadow-md active:bg-red-darker active:shadow-lg text-white"
+        id = "delpage-button"
+        > 
+          Unblock for the page
+       </button>
+       
+       <button 
+        class = "w-full px-2 py-2 rounded-full outline-none border-0 text-xs font-semibold bg-red hover:shadow-md active:bg-red-darker active:shadow-lg text-white"
+        id = "deldom-button"
+        > 
+          Unblock for the domain
+       </button>
+       
+       <!-- The code will be replaced (END) -->
+
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

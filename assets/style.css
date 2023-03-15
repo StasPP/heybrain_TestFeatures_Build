@@ -1,0 +1,665 @@
+/*
+! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
+*/
+.hey-brain-main,
+.hey-brain-main :after,
+.hey-brain-main :before {
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+}
+.hey-brain-main :after,
+.hey-brain-main :before {
+  --tw-content: "";
+} */
+.hey-brain-main {
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  line-height: 1.5;
+  tab-size: 4;
+  transition: 300;
+}
+/* html {
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  line-height: 1.5;
+  tab-size: 4;
+} */
+
+/* body {
+  line-height: inherit;
+  margin: 0; line-height: inherit;
+  margin: 0;
+} */
+
+.hey-brain-main {
+  line-height: inherit;
+  margin: 0; line-height: inherit;
+  margin: 0;
+}
+
+.hey-brain-main a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.hey-brain-main b{
+  font-weight: bolder;
+}                                               
+
+.hey-brain-main button,
+.hey-brain-main input {
+  color: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+.hey-brain-main button {
+  text-transform: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+.hey-brain-main button {
+  -webkit-appearance: button;
+  background-color: transparent;
+  background-image: none;
+}
+:-moz-focusring {
+  outline: auto;
+}
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+.hey-brain-main progress {
+  vertical-align: baseline;
+}
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+.hey-brain-main p
+{
+  margin: 0;
+}
+.hey-brain-main ol,
+.hey-brain-main ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hey-brain-main input::-webkit-input-placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
+.hey-brain-main input:-ms-input-placeholder {
+  color: #9ca3af;
+  opacity: 1;
+}
+.hey-brain-main input::placeholder{
+  color: #9ca3af;
+  opacity: 1;
+}
+[role="button"],
+.hey-brain-main button {
+  cursor: pointer;
+}
+:disabled {
+  cursor: default;
+}
+
+.hey-brain-main img {
+  display: block;
+  vertical-align: middle;
+}
+.hey-brain-main img {
+  height: auto;
+  max-width: 100%;
+}
+[hidden] {
+  display: none;
+}
+*,
+:after,
+:before {
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x: ;
+  --tw-pan-y: ;
+  --tw-pinch-zoom: ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-ordinal: ;
+  --tw-slashed-zero: ;
+  --tw-numeric-figure: ;
+  --tw-numeric-spacing: ;
+  --tw-numeric-fraction: ;
+  --tw-ring-inset: ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur: ;
+  --tw-brightness: ;
+  --tw-contrast: ;
+  --tw-grayscale: ;
+  --tw-hue-rotate: ;
+  --tw-invert: ;
+  --tw-saturate: ;
+  --tw-sepia: ;
+  --tw-drop-shadow: ;
+  --tw-backdrop-blur: ;
+  --tw-backdrop-brightness: ;
+  --tw-backdrop-contrast: ;
+  --tw-backdrop-grayscale: ;
+  --tw-backdrop-hue-rotate: ;
+  --tw-backdrop-invert: ;
+  --tw-backdrop-opacity: ;
+  --tw-backdrop-saturate: ;
+  --tw-backdrop-sepia: ;
+}
+
+
+
+.hey-brain-main .m-2 {
+  margin: 0.5rem;
+}
+
+.hey-brain-main .mr-1 {
+  margin-right: 0.25rem;
+}
+
+.hey-brain-main .mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.hey-brain-main .flex {
+  display: flex;
+}
+
+.hey-brain-main .hidden {
+  display: none;
+}
+.hey-brain-main .h-full {
+  height: 100%;
+}
+.hey-brain-main .h-12 {
+  height: 3rem;
+}
+.hey-brain-main .w-full {
+  width: 100%;
+}
+.hey-brain-main .w-12 {
+  width: 3rem;
+}
+
+.hey-brain-main .shrink-0 {
+  flex-shrink: 0;
+}
+.hey-brain-main .flex-grow,
+.hey-brain-main .grow {
+  flex-grow: 1;
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+.hey-brain-main .cursor-pointer {
+  cursor: pointer;
+}
+
+.hey-brain-main .flex-row {
+  flex-direction: row;
+}
+.hey-brain-main .flex-col {
+  flex-direction: column;
+}
+.hey-brain-main .flex-wrap {
+  flex-wrap: wrap;
+}
+.hey-brain-main .items-start {
+  align-items: flex-start;
+}
+.hey-brain-main .items-center {
+  align-items: center;
+}
+.hey-brain-main .justify-center {
+  justify-content: center;
+}
+
+.hey-brain-main .space-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-left: calc(0.5rem * (1 - var(--tw-space-x-reverse)));
+  margin-right: calc(0.5rem * var(--tw-space-x-reverse));
+}
+.hey-brain-main .space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-left: calc(0.25rem * (1 - var(--tw-space-x-reverse)));
+  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+}
+.hey-brain-main .space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  margin-top: calc(1rem * (1 - var(--tw-space-y-reverse)));
+}
+.hey-brain-main .space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+  margin-top: calc(0.5rem * (1 - var(--tw-space-y-reverse)));
+}
+
+.hey-brain-main .rounded-md {
+  border-radius: 0.375rem;
+}
+.hey-brain-main .rounded-full {
+  border-radius: 9999px;
+}
+.hey-brain-main .rounded {
+  border-radius: 0.25rem;
+}
+.hey-brain-main .rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.hey-brain-main .border {
+  border-width: 1px;
+}
+.hey-brain-main .border-0 {
+  border-width: 0;
+}
+.hey-brain-main .border-b {
+  border-bottom-width: 1px;
+}
+.hey-brain-main .border-r {
+  border-right-width: 1px;
+}
+
+.hey-brain-main .border-gray-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+
+.hey-brain-main .bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+}
+
+.hey-brain-main .bg-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 22 243 / var(--tw-bg-opacity));
+}
+
+.hey-brain-main .bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+
+.hey-brain-main .bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
+.hey-brain-main .p-2 {
+  padding: 0.5rem;
+}
+.hey-brain-main .p-4 {
+  padding: 1rem;
+}
+.hey-brain-main .px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.hey-brain-main .py-2 {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.hey-brain-main .py-1 {
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+.hey-brain-main .px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.hey-brain-main .px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.hey-brain-main .px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.hey-brain-main .text-center {
+  text-align: center;
+}
+
+.hey-brain-main .text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.hey-brain-main .text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.hey-brain-main .text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.hey-brain-main .font-semibold {
+  font-weight: 600;
+}
+.hey-brain-main .font-normal {
+  font-weight: 400;
+}
+.hey-brain-main .font-bold {
+  font-weight: 700;
+}
+
+.hey-brain-main .uppercase {
+  text-transform: uppercase;
+}
+
+.hey-brain-main .text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hey-brain-main .text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.hey-brain-main .text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.hey-brain-main .shadow-md {
+  box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.hey-brain-main .shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color);
+}
+.hey-brain-main .shadow {
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+    0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hey-brain-main .outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.hey-brain-main .blur {
+  --tw-blur: blur(8px);
+}
+.hey-brain-main .blur,
+.hey-brain-main .filter {
+  -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hey-brain-main .ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* body {
+  font-family: Montserrat, sans-serif;
+} */
+.hey-brain-main {
+  font-family: Montserrat, sans-serif;
+}
+
+.hey-brain-main .hover\:bg-purple:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 22 243 / var(--tw-bg-opacity));
+}
+
+.hey-brain-main .hover\:text-gray-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+.hey-brain-main .hover\:shadow-md:hover {
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
+    0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.hey-brain-main .focus\:border-gray-400:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+.hey-brain-main .focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.hey-brain-main .active\:bg-purple-darker:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 0 123 / var(--tw-bg-opacity));
+}
+
+.hey-brain-main .active\:shadow-lg:active {
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -4px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+    0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: 0 0 #0000, 0 0 #0000, var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@-webkit-keyframes rotating {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@keyframes rotating {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+@-webkit-keyframes rotating-reverse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+@keyframes rotating-reverse {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+@-webkit-keyframes meditate {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+  }
+}
+@keyframes meditate {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-60px);
+    transform: translateY(-60px);
+  }
+}
+
+/* NATALIA code starts here-->--> */
+.hey-brain-main .logo-switch {
+  width: 100%;
+  display: grid;
+  grid-template-areas: "button brain toggle"  /* 2023-03-14 Changed by Stanislav */
+}
+#brainImg {
+    grid-area: brain;
+    justify-self:center;
+}
+.hey-brain-main .switch {
+  position: relative;
+  display: inline-block;
+  width: 34px;
+  height: 14px;
+  grid-area: toggle;
+  align-self: center;
+  justify-self: end;
+}
+.hey-brain-main .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+/* non active input*/
+.hey-brain-main .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f1f1f1;
+}
+/* circle */
+.hey-brain-main .slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: -2px;
+  top: -3px;
+  background-color: white;
+  transition: 0.4s;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+  border-radius: 50%;
+}
+/* active input*/
+.hey-brain-main input:checked + .slider {
+  background-color: #DCD0FC;
+}
+/*  circle in active input*/
+.hey-brain-main input:checked + .slider:before {
+  background-color: #8962F4;
+}
+/* for movement*/
+.hey-brain-main input:checked + .slider:before {
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
+}
+/* Rounded input  */
+.hey-brain-main .slider.round {
+  border-radius: 34px;
+}
+/* -- NATALIA code ends here-->-- */
+
+
+/*Added by Stanislav: BEGIN */
+
+.hey-brain-main #heybrain-settings-button {
+  opacity: 0.5;
+  width: 32px;
+  height: 32px;
+  transition: 200ms;
+  grid-area: button;
+  cursor: pointer;
+  align-self:center;
+}
+
+.hey-brain-main #heybrain-settings-button:hover {
+  opacity: 1;
+}
+
+.hey-brain-main button .isdisabled {
+  background-color: gray;
+  
+}
+
+.hey-brain-main .bg-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 22 22 / var(--tw-bg-opacity));
+}
+
+.hey-brain-main .bg-red-darker {
+  --tw-bg-opacity: 1;
+  background-color: rgb(190 0 0 / var(--tw-bg-opacity));
+}
+
+/* Added by Stanislav: END */

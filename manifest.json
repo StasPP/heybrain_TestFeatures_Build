@@ -1,0 +1,48 @@
+{
+  "name": "Hey Brain!",
+  "description": "",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "48": "/assets/icons/brain-48.png",
+    "128": "/assets/icons/brain-128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "exclude_matches": ["file:///*/*"],
+      "js": ["content.js", "assets/js/simple-editor-purejs.js"],
+      "css": ["assets/style.css"]
+    }
+  ],
+  "content_security_policy": {
+    "extension-pages": "script-src 'unsafe-inline' 'unsafe-eval'; object-src 'self'; img-src * data: 'self' 'unsafe-eval'"
+  },
+  "offline_enabled": false,
+  "host_permissions": ["https://*/*", "http://*/*", "<all_urls>"],
+  "permissions": [
+    "notifications",
+    "alarms",
+    "tabs",
+    "activeTab",
+    "background",
+    "contextMenus",
+    "declarativeContent",
+    "storage",
+    "webNavigation",
+    "unlimitedStorage",
+    "history"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/*"],
+      "matches": ["*://*/*"]
+    }
+  ]
+}
